@@ -277,3 +277,128 @@ nav>.header-left {
 .section4>figcaption {
     margin-bottom: 4rem;
 }
+
+.section-flex {
+  width: 95vw;
+  height: 39rem;
+  /* background-color: aqua; */
+  display: flex;
+  gap: 4rem;
+  margin: 3rem auto;
+  padding-top: 2rem;
+  margin: 4rem -6rem;
+}
+
+.section-flex  > div {
+  height: 10rem;
+  width: 10rem;
+  /* border: 1px solid black; */
+}
+
+.section-flex > .section2 {
+  flex: 0.3;
+}
+
+.section-flex > .section1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 0.7;
+  height: 100%;
+  /* background-color: blueviolet; */
+}
+
+.section11 > .div1, .div2, .div3 {
+  /* margin-bottom: 1rem; */
+  margin: .5rem;
+  width: 34%;
+  padding: 1rem;
+}
+
+.section12 > .div4, .div5, .div6 {
+  /* margin-bottom: 1rem; */
+  margin: .5rem;
+  width: 34%;
+  padding: .3rem;
+}
+
+
+
+.section11 > .div1 > img, .section11 > .div2 > img, .section11 > .div3 > img{
+  width: 100%;
+  display: block;
+  /* height: auto; */
+}
+
+.section12 > .div4 > img, .section12 > .div5 > img, .section12 > .div6 > img{
+  width: 100%;
+  display: block;
+  /* height: auto; */
+}
+
+.section11 > .div1 > i, .section11 > .div2 > i, .section11 > .div3 > i {
+  display: block;
+  padding: 1rem 0;
+  font-size: small;
+  text-align: right;
+}
+
+.section12 > .div4 > i, .section12 > .div5 > i, .section12 > .div6 > i {
+  display: block;
+  padding: 1rem;
+  font-size: small;
+  text-align: right;
+}
+
+.section12 > .div4 > time, .section12 > .div5 > time, .section12 > .div6 > time {
+  display: block;
+  padding: 1rem 0;
+  font-size: x-small;
+  text-align: left;
+}
+
+
+.section11 > .div1 > time, .section11 > .div2 > time, .section11 > .div3 > time {
+  display: block;
+  padding: 1rem 0;
+  font-size: x-small;
+  text-align: left;
+}
+
+.section11, .section12 {
+  /* background-color: blue; */
+  /* width: fit-content; */
+}
+
+.section11, .section12 {
+  height: 5rem;
+  /* border: green solid 1px; */
+}
+
+.section11, .section12 {
+  display: flex;
+  padding: 2rem;
+  width: 100%;
+  height: 100%;
+}
+
+.section-flex> .section2 > ul {
+  list-style: none;
+}
+
+.section2 > h4 {
+  border-top: 2px solid black;
+  padding: 1.5rem;
+}
+
+.section-flex> .section2 > ul > li {
+  height: 4rem;
+  border-top: 0.3px solid #d9d9d9;
+  padding: 2rem;
+  margin: 10px 0 20px 0;
+}
+
+.section-flex> img {
+  height: 5rem;
+  width: 6rem;
+}
