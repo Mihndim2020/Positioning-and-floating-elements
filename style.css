@@ -223,3 +223,29 @@ nav>.header-left {
     padding: 0.2rem;
     width: fit-content;
 }
+
+.section3 {
+  margin: auto;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+
+.section3 > p {
+  font-size: 20px;
+}
+
+.section3 > .vid {
+  margin: 3rem 0 0 0;
+  margin: auto;
+}
+
+.section3 > p {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
