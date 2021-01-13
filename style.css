@@ -225,27 +225,55 @@ nav>.header-left {
 }
 
 .section3 {
-  margin: auto;
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
+    margin: auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }
 
-
-.section3 > p {
-  font-size: 20px;
+.section3>p {
+    font-size: 20px;
 }
 
-.section3 > .vid {
-  margin: 3rem 0 0 0;
-  margin: auto;
+.section3>.vid {
+    margin: 3rem 0 0 0;
+    margin: auto;
 }
 
-.section3 > p {
-  width: 90%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
+.section3>p {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.section4 {
+    width: 60%;
+    margin: auto;
+}
+
+.section4 img {
+    width: 100%;
+    margin: 4rem 0 0 0;
+}
+
+.section4>figure {
+    display: flex;
+    flex-direction: column;
+}
+
+.section4>figure>p {
+    margin: 4rem 0 0 0;
+    font-size: 24px;
+}
+
+.section4>p {
+    margin: 5rem 0 0 0;
+    font-size: 4rem;
+}
+
+.section4>figcaption {
+    margin-bottom: 4rem;
 }
