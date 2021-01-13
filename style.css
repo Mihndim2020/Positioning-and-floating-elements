@@ -463,29 +463,46 @@ nav>.header-left {
 }
 
 footer {
-  /* background-color: blue; */
-  margin: 3rem auto ;
-  width: 90vw;
+    /* background-color: blue; */
+    margin: 3rem auto;
+    width: 90vw;
 }
 
 .footer {
-  /* margin: auto; */
-  /* background-color: red; */
-  display: flex;
-  flex-direction: column;
-  border-top: 1px ridge black;
+    /* margin: auto; */
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    border-top: 1px ridge black;
 }
 
-.footer > .menu-svg {
-  height: 40px;
-  width: 40px;
+.footer>.menu-svg {
+    height: 40px;
+    width: 40px;
 }
 
-.footer > .list  {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 2rem;
-  font-size: small;
-  gap: 1rem;
-  line-height: 1.6;
+.footer>.list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    font-size: small;
+    gap: 1rem;
+    line-height: 1.6;
+}
+
+.footer>.list>ul {
+    list-style: none;
+}
+
+.footer>.footer1>ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: x-small;
+    width: 100%;
+    margin: 0;
+    height: 3rem;
+    align-items: center;
+    border-top: 1px solid black;
+    /* font-ize: 15px; */
 }
