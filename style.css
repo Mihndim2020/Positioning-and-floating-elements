@@ -461,3 +461,31 @@ nav>.header-left {
     font-size: small;
     padding: .5rem;
 }
+
+footer {
+  /* background-color: blue; */
+  margin: 3rem auto ;
+  width: 90vw;
+}
+
+.footer {
+  /* margin: auto; */
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  border-top: 1px ridge black;
+}
+
+.footer > .menu-svg {
+  height: 40px;
+  width: 40px;
+}
+
+.footer > .list  {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+  font-size: small;
+  gap: 1rem;
+  line-height: 1.6;
+}
