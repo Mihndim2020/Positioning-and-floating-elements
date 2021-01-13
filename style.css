@@ -1,0 +1,30 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  p{
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  }
+  
+  body {
+    /* line-height: 1.6; */
+  }
+  
+  /* svg */
+  
+  .search-svg {
+    height: 17px;
+    width: 17px;
+  }
+  
+  .menu-svg {
+    height: 50px;
+    width: 15px;
+  }
+  
+  .new-york-svg {
+    height: 70px;
+    width: 200px;
+  }
