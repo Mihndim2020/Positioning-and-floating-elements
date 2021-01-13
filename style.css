@@ -1,30 +1,111 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-  }
-  
-  p{
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
-  }
-  
-  body {
+}
+
+p {
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+}
+
+body {
     /* line-height: 1.6; */
-  }
-  
-  /* svg */
-  
-  .search-svg {
+}
+
+
+/* svg */
+
+.search-svg {
     height: 17px;
     width: 17px;
-  }
-  
-  .menu-svg {
+}
+
+.menu-svg {
     height: 50px;
     width: 15px;
-  }
-  
-  .new-york-svg {
+}
+
+.new-york-svg {
     height: 70px;
     width: 200px;
-  }
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    padding: 0 120px;
+    /* background-color: green; */
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 45px;
+    align-items: center;
+    border-bottom: 0.1px solid grey;
+    /* background-color: red; */
+}
+
+header>nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav>.header-left {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -400px;
+}
+
+.container>summary {
+    /* text-align: center; */
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 63px auto 20px;
+    border-bottom: 1px solid black;
+    width: 600px;
+    padding-bottom: 1.5rem;
+}
+
+.socials {
+    /* background-color: red; */
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.socials>.social-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20%;
+    height: 100%;
+    margin: 15rem;
+    /* background-color: blue; */
+}
+
+.social-inner>.fb,
+.twi,
+.msg,
+.share,
+.comm {
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    /* font-weight: lighter; */
+    height: 20px;
+    background-color: rgb(230, 223, 223);
+    width: 20px;
+    /* padding: 20px; */
+}
