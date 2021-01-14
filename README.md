@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Positioning-and-floating-elements
 Positing and floating elements using semantic html. New York times clone
 
@@ -62,3 +63,10 @@ Give a ⭐️ if you like this project!
 - Stand up team
 - Mentors
 ## 📝 License
+=======
+##positioning and floating elements
+
+##HTML AND CSS, SVG AND BOOTSTRAP CDN
+
+##
+>>>>>>> 53303488e11730b07ec190e871f76fd2b08aca45
