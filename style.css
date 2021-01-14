@@ -148,7 +148,7 @@ nav > .header-left {
   line-height: 1.6;
 }
 
-.section1 > summary {
+.section1 > h3 {
   font-weight: 600;
 }
 
@@ -170,7 +170,7 @@ nav > .header-left {
   margin: 3.5rem 0;
 }
 
-.section2 summary {
+.section2 > h4 {
   font-size: 1.3rem;
   font-weight: 600;
 }
