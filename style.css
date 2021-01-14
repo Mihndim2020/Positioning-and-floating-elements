@@ -412,6 +412,11 @@ nav > .header-left {
   list-style: none;
 }
 
+.editor-pick > div > h4 {
+  text-align: left;
+  padding: 9px 2px 0.1rem 5px;
+}
+
 .section-flex > .section2 > h4 {
   border-top: 2px solid black;
   padding: 1.2rem;
@@ -457,11 +462,6 @@ nav > .header-left {
   height: 16rem;
   width: 34%;
   margin: 1.5rem;
-}
-
-.editor-pick > div > h4 {
-  text-align: left;
-  padding: 9px 2px 0.1rem 5px;
 }
 
 footer {
