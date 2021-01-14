@@ -269,13 +269,14 @@ nav > .header-left {
   margin-right: -6rem;
 }
 
-.section-flex > div {
+/* .section-flex > div {
   height: 10rem;
-  width: 10rem;
-}
+  width: 10em;
+} */
 
 .section-flex > .section2 {
   flex: 0.3;
+  background-color: red;
 }
 
 .section-flex > .section1 {
@@ -284,6 +285,7 @@ nav > .header-left {
   width: 100%;
   flex: 0.7;
   height: 100%;
+  background: blue;
 }
 
 .section11 > .div1,
@@ -292,6 +294,7 @@ nav > .header-left {
   margin: 0.5rem;
   width: 34%;
   padding: 1rem;
+  background: red;
 }
 
 .section12 > .div4,
@@ -300,11 +303,12 @@ nav > .header-left {
   margin: 0.5rem;
   width: 34%;
   padding: 0.3rem;
+  background-color: red;
 }
 
 .section-flex > img {
-  height: 5rem;
-  width: 6rem;
+  height: 2rem;
+  width: 2rem;
 }
 
 .editor-pick > div > img {
@@ -405,7 +409,7 @@ nav > .header-left {
 }
 
 .editor-title {
-  top: 91%;
+  top: 90%;
   left: 4.3rem;
   position: absolute;
   border-top: 1px solid black;
