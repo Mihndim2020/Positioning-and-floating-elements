@@ -412,7 +412,7 @@ nav > .header-left {
   list-style: none;
 }
 
-.section2 > h4 {
+.section-flex > .section2 > h4 {
   border-top: 2px solid black;
   padding: 1.2rem;
 }
