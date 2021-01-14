@@ -58,8 +58,7 @@ nav > .header-left {
   margin-left: -400px;
 }
 
-.container > div {
-  /* text-align: center; */
+.container > h2 {
   font-style: italic;
   font-weight: 600;
   font-size: 18px;
@@ -70,7 +69,6 @@ nav > .header-left {
 }
 
 .socials {
-  /* background-color: red; */
   height: 60px;
   display: flex;
   align-items: center;
@@ -402,7 +400,7 @@ nav > .header-left {
 }
 
 .editor-title {
-  top: 90.4%;
+  top: 89.8%;
   left: 4.3rem;
   position: absolute;
   border-top: 1px solid black;
