@@ -202,7 +202,7 @@ nav > .header-left {
   font-size: small;
   border-top: 2px solid black;
   padding: 0.2rem;
-  width: fit-content;
+  width: 100%;
 }
 
 .section3 {
@@ -215,19 +215,16 @@ nav > .header-left {
 
 .section3 > p {
   font-size: 20px;
-}
-
-.section3 > .vid {
-  margin: 3rem 0 0 0;
-  margin: auto;
-}
-
-.section3 > p {
   width: 90%;
   margin: auto;
   display: flex;
   flex-direction: column;
   gap: 4rem;
+}
+
+.section3 > .vid {
+  margin: 3rem 0 0 0;
+  margin: auto;
 }
 
 .section4 {
@@ -245,14 +242,14 @@ nav > .header-left {
   flex-direction: column;
 }
 
-.section4 > figure > p {
-  margin: 4rem 0 0 0;
-  font-size: 24px;
-}
-
 .section4 > p {
   margin: 5rem 0 0 0;
   font-size: 4rem;
+}
+
+.section4 > figure > p {
+  margin: 4rem 0 0 0;
+  font-size: 24px;
 }
 
 .section4 > figcaption {
@@ -266,7 +263,10 @@ nav > .header-left {
   gap: 4rem;
   margin: 3rem auto;
   padding-top: 2rem;
-  margin: 4rem -6rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-left: -6rem;
+  margin-right: -6rem;
 }
 
 .section-flex > div {
@@ -289,7 +289,7 @@ nav > .header-left {
 .section11 > .div1,
 .div2,
 .div3 {
-  margin: o.5rem;
+  margin: 0.5rem;
   width: 34%;
   padding: 1rem;
 }
@@ -300,6 +300,16 @@ nav > .header-left {
   margin: 0.5rem;
   width: 34%;
   padding: 0.3rem;
+}
+
+.section-flex > img {
+  height: 5rem;
+  width: 6rem;
+}
+
+.editor-pick > div > img {
+  width: 100%;
+  height: 8rem;
 }
 
 .section11 > .div1 > img,
@@ -314,6 +324,11 @@ nav > .header-left {
 .section12 > .div6 > img {
   width: 100%;
   display: block;
+}
+
+.editor-pick > div > i {
+  font-size: x-small;
+  padding: 1rem 4px;
 }
 
 .section11 > .div1 > i,
@@ -332,6 +347,11 @@ nav > .header-left {
   padding: 1rem;
   font-size: small;
   text-align: right;
+}
+
+.editor-pick > div > time {
+  font-size: small;
+  padding: 0.5rem;
 }
 
 .section12 > .div4 > time,
@@ -354,15 +374,11 @@ nav > .header-left {
 
 .section11,
 .section12 {
-  height: 5rem;
-}
-
-.section11,
-.section12 {
   display: flex;
   padding: 2rem;
   width: 100%;
   height: 100%;
+  height: 5rem;
 }
 
 .section-flex > .section2 > ul {
@@ -379,11 +395,6 @@ nav > .header-left {
   border-top: 0.3px solid #d9d9d9;
   padding: 2rem;
   margin: 10px 0 20px 0;
-}
-
-.section-flex > img {
-  height: 5rem;
-  width: 6rem;
 }
 
 .editor-pick {
@@ -409,24 +420,9 @@ nav > .header-left {
   margin: 1.5rem;
 }
 
-.editor-pick > div > img {
-  width: 100%;
-  height: 8rem;
-}
-
 .editor-pick > div > h4 {
   text-align: left;
   padding: 9px 2px 0.1rem 5px;
-}
-
-.editor-pick > div> i {
-  font-size: x-small;
-  padding: 1rem 4px;
-}
-
-.editor-pick > div > time {
-  font-size: small;
-  padding: 0.5rem;
 }
 
 footer {
