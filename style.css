@@ -7,7 +7,7 @@
 }
 
 p {
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
 }
 
 .search-svg {
@@ -59,6 +59,7 @@ nav > .header-left {
 }
 
 .container > summary {
+  /* text-align: center; */
   font-style: italic;
   font-weight: 600;
   font-size: 18px;
@@ -69,6 +70,7 @@ nav > .header-left {
 }
 
 .socials {
+  /* background-color: red; */
   height: 60px;
   display: flex;
   align-items: center;
@@ -202,7 +204,7 @@ nav > .header-left {
   font-size: small;
   border-top: 2px solid black;
   padding: 0.2rem;
-  width: 100%;
+  width: fit-content;
 }
 
 .section3 {
@@ -213,18 +215,18 @@ nav > .header-left {
   gap: 3rem;
 }
 
-.section3 > p {
-  font-size: 20px;
-  width: 90%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
-}
-
 .section3 > .vid {
   margin: 3rem 0 0 0;
   margin: auto;
+}
+
+.section3 > p {
+  font-size: 20px;
+  width: 90%;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
 }
 
 .section4 {
@@ -261,22 +263,17 @@ nav > .header-left {
   height: 39rem;
   display: flex;
   gap: 4rem;
-  margin: 3rem auto;
   padding-top: 2rem;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-  margin-left: -6rem;
-  margin-right: -6rem;
+  margin: 4rem -6rem;
 }
 
-/* .section-flex > div {
+.section-flex > div {
   height: 10rem;
-  width: 10em;
-} */
+  width: 10rem;
+}
 
 .section-flex > .section2 {
   flex: 0.3;
-  background-color: red;
 }
 
 .section-flex > .section1 {
@@ -285,7 +282,6 @@ nav > .header-left {
   width: 100%;
   flex: 0.7;
   height: 100%;
-  background: blue;
 }
 
 .section11 > .div1,
@@ -294,7 +290,6 @@ nav > .header-left {
   margin: 0.5rem;
   width: 34%;
   padding: 1rem;
-  background: red;
 }
 
 .section12 > .div4,
@@ -303,12 +298,11 @@ nav > .header-left {
   margin: 0.5rem;
   width: 34%;
   padding: 0.3rem;
-  background-color: red;
 }
 
 .section-flex > img {
-  height: 2rem;
-  width: 2rem;
+  height: 5rem;
+  width: 6rem;
 }
 
 .editor-pick > div > img {
@@ -318,7 +312,7 @@ nav > .header-left {
 
 .section11 > .div1 > img,
 .section11 > .div2 > img,
-.section1 > .div3 > img {
+.section11 > .div3 > img {
   width: 100%;
   display: block;
 }
@@ -382,7 +376,6 @@ nav > .header-left {
   padding: 2rem;
   width: 100%;
   height: 100%;
-  height: 5rem;
 }
 
 .section-flex > .section2 > ul {
@@ -409,7 +402,7 @@ nav > .header-left {
 }
 
 .editor-title {
-  top: 90%;
+  top: 90.4%;
   left: 4.3rem;
   position: absolute;
   border-top: 1px solid black;
@@ -430,6 +423,7 @@ nav > .header-left {
 }
 
 footer {
+  /* background-color: blue; */
   margin: 3rem auto;
   width: 90vw;
 }
