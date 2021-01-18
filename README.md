@@ -10,17 +10,8 @@ Additional description about the project and its features.
 - CSS3
 ## Live Demo
 [Live Demo Link](https://mihndim2020.github.io/Positioning-and-floating-elements/)
-## Getting Started
-link
-## Authors
-:bust_in_silhouette: **Author1**
-- GitHub: [@Mihndim2020](https://github.com/Mihndim2020)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-:bust_in_silhouette: **Author2**
-- GitHub: [promise-J](https://github.com/promise-J)
-- Twitter: [@twitterhandle](https://twitter.com/Promise94353263)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/promise-chiemela-788887142)
+
+
 ## :handshake: Contributing
 Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](issues/).
@@ -30,11 +21,6 @@ Give a :star:? if you like this project!
 - My coding partner
 - Stand up team
 - Mentors
-## :memo: License
-=======
-
-# Positioning-and-floating-elements
-Positing and floating elements using semantic html. New York times clone
 
 
 # screen shot here
@@ -100,17 +86,3 @@ furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-##positioning and floating elements
-##HTML AND CSS, SVG AND BOOTSTRAP CDN
-<<<<<<< HEAD
-##
-=======
-
