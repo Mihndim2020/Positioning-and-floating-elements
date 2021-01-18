@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fauna+One&family=Scheherazade&display=swap");
 
 *,
 *::after,
@@ -10,6 +11,133 @@
 
 body {
   overflow-x: hidden;
+  line-height: 1;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 .search-svg {
@@ -33,10 +161,11 @@ a {
 }
 
 .container {
+  font-family: "Fauna One", serif;
   position: relative;
   text-align: center;
   display: flex;
-  width: 100vw;
+  width: 100%;
   flex-direction: column;
   padding: 0 120px;
 }
@@ -51,18 +180,27 @@ a {
   gap: 1rem;
 }
 
-.editors-picks > h2 {
-  top: 36.7%;
-  border-top: 2px solid #d9d9d9;
-  padding: 1rem;
-  margin-top: -1.4rem;
-  width: 21rem;
+.editors-picks {
   position: absolute;
-  right: 0.2rem;
+  top: 23%;
+  right: -6%;
+  width: 5rem;
+}
+
+.editor-heading {
+  position: absolute;
+  top: 0%;
+  right: 10rem;
+  margin: -4rem -3.5rem;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+  width: 13rem;
+  text-align: left;
 }
 
 .figures > figure {
-  border: 1px solid #d9d9d9;
+  width: 12rem;
+  font-size: x-small;
 }
 
 .space-image > figcaption {
@@ -95,8 +233,9 @@ a {
 }
 
 .figures > figure > img {
-  width: 5rem;
-  height: 5rem;
+  width: 3rem;
+  height: 3rem;
+  margin: 10px;
   float: left;
 }
 
@@ -156,9 +295,9 @@ nav > .header-left {
 }
 
 .container > .title {
-  font-family: 'Courgette', cursive;
+  font-family: "Courgette", cursive;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 28px;
   margin: 5rem auto 20px;
   border-bottom: 1px solid #d9d9d9;
   width: 550px;
@@ -272,6 +411,7 @@ nav > .header-left {
 }
 
 .section-intro > p {
+  font-family: "Fauna One", serif;
   font-size: 20px;
   text-align: left;
   line-height: 1.6;
@@ -279,12 +419,14 @@ nav > .header-left {
 
 .section-inflation > p {
   width: 11rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   height: 8rem;
   font-size: 13px;
   font-weight: lighter;
 }
 
 .section-kovac > p {
+  font-family: "Fauna One", serif;
   font-size: 20px;
   width: 90%;
   margin: 3rem auto;
@@ -302,9 +444,53 @@ nav > .header-left {
   line-height: 1.6;
 }
 
+.section-telescope > div > span > a {
+  font-size: x-small;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  border-right: solid 1px #d9d9d9;
+  padding-right: 0.3rem;
+  text-decoration: underline;
+}
+
 .section-telescope > div {
   text-align: left;
+  font-size: 11px;
   margin-top: 1rem;
+}
+
+.read-comments {
+  width: 38rem;
+  display: flex;
+  /* padding: 1rem; */
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem auto;
+}
+
+.read-comments > button {
+  background-color: rgb(50, 104, 145);
+  padding: 0.7rem;
+  height: 2rem;
+  width: 23rem;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  color: white;
+}
+
+.read-comments > .comment-socials {
+  width: 20rem;
+  height: 3rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.read-comments > .comment-socials > .social-inner {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
 }
 
 .section-flex > div {
@@ -396,7 +582,7 @@ nav > .header-left {
   font-size: small;
   border-top: 2px solid black;
   padding: 0.2rem;
-  width: fit-content;
+  width: 19rem;
 }
 
 .section-kovac {
@@ -437,6 +623,7 @@ nav > .header-left {
   margin: 1rem 0 0 0;
   color: #979696;
   text-align: left;
+  font-size: x-small;
 }
 
 .section-flex {
@@ -462,7 +649,8 @@ nav > .header-left {
 
 .section-flex > .section-flex1 > h3 {
   position: absolute;
-  top: 83.29%;
+  top: 90%;
+  padding: 0.5rem;
   left: 5rem;
   border-top: 1px solid black;
   width: 43.3rem;
@@ -508,6 +696,11 @@ nav > .header-left {
   padding: 1rem 4px;
 }
 
+.editor-pick > div > p {
+  text-align: left;
+  font-size: small;
+}
+
 .section-flex11 > .div1 > i,
 .section-flex11 > .div2 > i,
 .section-flex11 > .div3 > i {
@@ -541,12 +734,12 @@ nav > .header-left {
   text-align: left;
 }
 
-.section-flex11 > .div1 > time,
-.section-flex11 > .div2 > time,
-.section-flex11 > .div3 > time {
+.section-flex11 > .div1 > p,
+.section-flex11 > .div2 > p,
+.section-flex11 > .div3 > p {
   display: block;
   padding: 1rem 0;
-  font-size: x-small;
+  font-size: small;
   text-align: left;
 }
 
@@ -560,11 +753,6 @@ nav > .header-left {
 
 .section-flex > .section-flex2 > ul {
   list-style: none;
-}
-
-.editor-pick > div > p {
-  text-align: left;
-  font-size: small;
 }
 
 .section-flex > .section-flex2 > h4 {
@@ -597,25 +785,26 @@ nav > .header-left {
 }
 
 .editor-title {
-  top: 90.4%;
+  top: 93.6%;
   text-align: left;
   left: 4.3rem;
   position: absolute;
   border-top: 1px solid black;
   width: 56.5vw;
   padding-top: 1rem;
-  font-size: 20px;
+  font-size: 19px;
+  font-weight: bold;
 }
 
 footer {
-  margin: 3rem auto;
-  width: 90vw;
+  display: flex;
+  width: 1260px;
+  border-top: solid 1px black;
 }
 
 .footer {
   display: flex;
   flex-direction: column;
-  border-top: 1px ridge black;
 }
 
 .footer > .menu-svg {
@@ -634,6 +823,58 @@ footer {
 
 .footer > .list > ul {
   list-style: none;
+}
+
+footer > .footer {
+  width: 63.1rem;
+}
+
+footer > .footer2 .css-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+footer > .footer2 {
+  width: 15rem;
+  line-height: 1.8;
+}
+
+footer > .footer2 > ul {
+  border-left: 1px solid #d9d9d9;
+  padding-left: 1.4rem;
+}
+
+footer > .footer2 > .home-link {
+  margin: 0.4rem 0 0 9rem;
+  font-size: x-small;
+  color: #6d6666;
+}
+
+footer > .footer2 > h3 {
+  margin: 1rem 0 1rem 1.7rem;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.footer > .new-york-svg {
+  margin-left: 3rem;
+}
+
+footer > .footer2 > ul > li:nth-child(1) > a,
+footer > .footer2 > ul > li:nth-child(2) > a,
+footer > .footer2 > ul > li:nth-child(3) > a,
+footer > .footer2 > ul > li:nth-child(4) > a {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+footer > .footer2 li {
+  font-size: 11px;
+  padding: 2px;
+}
+
+footer > .footer2 > ul > li:nth-child(7) {
+  border-bottom: 1px solid #d9d9d9;
 }
 
 .footer > .footer1 > ul {
