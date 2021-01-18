@@ -268,6 +268,18 @@ header > nav > .button {
   align-items: center;
 }
 
+.read-comments > button {
+  background-color: rgb(50, 104, 145);
+  padding: 0.7rem;
+  height: 2rem;
+  width: 23rem;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  color: white;
+}
+
 header > nav > .button > button {
   background-color: rgb(50, 104, 145);
   height: 1.8rem;
@@ -462,22 +474,9 @@ nav > .header-left {
 .read-comments {
   width: 38rem;
   display: flex;
-  /* padding: 1rem; */
   align-items: center;
   justify-content: space-between;
   margin: 2rem auto;
-}
-
-.read-comments > button {
-  background-color: rgb(50, 104, 145);
-  padding: 0.7rem;
-  height: 2rem;
-  width: 23rem;
-  outline: none;
-  cursor: pointer;
-  border: none;
-  border-radius: 6px;
-  color: white;
 }
 
 .read-comments > .comment-socials {
@@ -647,6 +646,12 @@ nav > .header-left {
   height: 100%;
 }
 
+footer > .footer2 > h3 {
+  margin: 1rem 0 1rem 1.7rem;
+  font-size: 12px;
+  font-weight: bold;
+}
+
 .section-flex > .section-flex1 > h3 {
   position: absolute;
   top: 90%;
@@ -751,6 +756,11 @@ nav > .header-left {
   height: 100%;
 }
 
+footer > .footer2 > ul {
+  border-left: 1px solid #d9d9d9;
+  padding-left: 1.4rem;
+}
+
 .section-flex > .section-flex2 > ul {
   list-style: none;
 }
@@ -766,6 +776,11 @@ nav > .header-left {
   font-weight: 500;
   font-size: 14px;
   margin-bottom: -4rem;
+}
+
+footer > .footer2 li {
+  font-size: 11px;
+  padding: 2px;
 }
 
 .section-flex > .section-flex2 > ul > li {
@@ -839,21 +854,10 @@ footer > .footer2 {
   line-height: 1.8;
 }
 
-footer > .footer2 > ul {
-  border-left: 1px solid #d9d9d9;
-  padding-left: 1.4rem;
-}
-
 footer > .footer2 > .home-link {
   margin: 0.4rem 0 0 9rem;
   font-size: x-small;
   color: #6d6666;
-}
-
-footer > .footer2 > h3 {
-  margin: 1rem 0 1rem 1.7rem;
-  font-size: 12px;
-  font-weight: bold;
 }
 
 .footer > .new-york-svg {
@@ -866,11 +870,6 @@ footer > .footer2 > ul > li:nth-child(3) > a,
 footer > .footer2 > ul > li:nth-child(4) > a {
   font-weight: bold;
   font-size: 17px;
-}
-
-footer > .footer2 li {
-  font-size: 11px;
-  padding: 2px;
 }
 
 footer > .footer2 > ul > li:nth-child(7) {
