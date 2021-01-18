@@ -1,5 +1,2 @@
-# .gitignore
-node_modules/
-*.json
-.hintrc
-.vscode
+node_modules
+
