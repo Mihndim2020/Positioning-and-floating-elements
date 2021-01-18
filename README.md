@@ -2,9 +2,7 @@
 # Positioning-and-floating-elements
 Positing and floating elements using semantic html. New York times clone
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-# Project Name
-Positioning and Floating Elements
-> One paragraph statement about the project.
+
 This project is a clone of the New times article website  (https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0). The objective of the project is the implement(put into use, showcase, cement) the skills learnt in the technical curriculum of microverse, which has to do with the positioning of elements using the various positioning techniques. The positing techniques used for this project are: floats, and flex-box, relative, absolute, fixed.
 Additional description about the project and its features.
 ## Built With
@@ -45,19 +43,6 @@ Positing and floating elements using semantic html. New York times clone
 ![project](https://user-images.githubusercontent.com/57602224/104808026-c0f57000-5776-11eb-83d0-546e8c3c7396.PNG)
 
 
-# Project Name
-Positioning and Floating Elements 
-> One paragraph statement about the project.
-
-This project is a clone of the New times article website  (https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0). The objective of the project is the implement(put into use, showcase, cement) the skills learnt in the technical curriculum of microverse, which has to do with the positioning of elements using the various positioning techniques. The positing techniques used for this project are: floats, and flex-box, relative, absolute, fixed. 
-
-Additional description about the project and its features.
-
-## Built With
-
-- HTML5
-- CSS3
-
 
 ## Live Demo
 
@@ -65,9 +50,9 @@ Additional description about the project and its features.
 
 
 ## Getting Started
-
-
-link
+Clone the repository to your computer using GitBash or your favorite terminal.
+Open de html files on your browser.
+Unpack the files on your text editor or IDE.
 
 
 
